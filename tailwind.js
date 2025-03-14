@@ -2,14 +2,14 @@ tailwind.config = {
     theme: {
         extend: {
             colors: {
-                main: '#FFDC26',
-                secondary: '#F9DF8A',
-                light: '#FFF9F4',
-                para: '#111111',
+                main: '#1fbb05',
+                secondary: '#045604',
+                para: '#000',
+                hover: '#e8f1ea',
             },
             fontFamily: {
-                title: ['ADLaM Display', 'sans-serif'],
-                para: ['Sora', 'sans-serif'],
+                title: ['Abril Fatface', 'sans-serif'],
+                para: ['Roboto', 'sans-serif'],
             }
 
         }

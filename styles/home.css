@@ -1,0 +1,27 @@
+/* Gradient Color */
+.main_gradient {
+  background: linear-gradient(90deg, #1fbb05, #045604);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.main_gradient:hover {
+  background: linear-gradient(90deg, #045604, #1fbb05);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Top Heading in Samll Device */
+@media (max-width: 429px) {
+  #header .heading_top{
+    flex-direction: column;
+    font-size: 14px;
+  }
+  #header .company_title{
+    display: none;
+  }
+}
