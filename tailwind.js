@@ -6,6 +6,7 @@ tailwind.config = {
                 secondary: '#045604',
                 para: '#000',
                 hover: '#e8f1ea',
+                greyCustom: '#808080'
             },
             fontFamily: {
                 title: ['Abril Fatface', 'sans-serif'],
