@@ -96,9 +96,13 @@
                 <!-- Logo and Title -->
                 <div class="navbar-start">
                     <a href="./" class="flex gap-1 items-center">
-                        <img src="./assets/logo.png" alt="company logo" width="50" height="50" class="company_logo" />
-                        <h1 class="company_title text-2xl text-main main_gradient font-title">Gasprotech
-                            Limited</h1>
+                        <img src="./assets/logo.png" alt="company logo" width="50" height="50"
+                            class="company_logo mt-2" />
+                        <div class="company_title">
+                            <h1 class="text-2xl text-main main_gradient font-title">Gasprotech
+                                Limited</h1>
+                            <p class="text-grey text-sm">Gassprotech-Commited to Progress</p>
+                        </div>
                     </a>
                 </div>
 
@@ -121,7 +125,7 @@
                         <li
                             class="p-4 relative group  hover:text-secondary hover:bg-hover transition-all duration-300 ease-in-out">
                             <a href="#about-us" class="flex flex-col items-center text-lg">
-                                <span>About Us</span>
+                                <span>Our Goal</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="size-3">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -170,15 +174,23 @@
                             <span
                                 class="absolute bottom-0 left-0 w-0 h-[4px] bg-main transition-all duration-300 ease-in-out group-hover:w-full"></span>
                         </li>
+                        <li
+                            class="p-4 relative group  hover:text-secondary hover:bg-hover transition-all duration-300 ease-in-out">
+                            <a href="./overview.html" class="flex flex-col items-center text-lg">
+                                <span>About Us</span>
+                            </a>
+                            <span
+                                class="absolute bottom-0 left-0 w-0 h-[4px] bg-main transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                        </li>
                     </ul>
                 </div>
 
                 <!-- Contact Us Button -->
-                <div class="navbar-end gap-2 hidden lg:flex m-0 p-0">
-                    <a href="./contact.html"
+                <!-- <div class="navbar-end gap-2 hidden lg:flex m-0 p-0">
+                    <a href="#"
                         class="btn bg-main text-white text-xl hover:bg-transparent hover:border-1 hover:border-main hover:text-para">Contact
                         Us</a>
-                </div>
+                </div> -->
 
                 <!-- Hambergur Menu for  Mobile Device -->
                 <div class="navbar-end lg:hidden">
@@ -208,7 +220,7 @@
                             <li
                                 class="p-4 relative group  hover:text-secondary hover:bg-hover transition-all duration-300 ease-in-out">
                                 <a href="#about-us" class="flex flex-col items-center text-lg">
-                                    <span>About Us</span>
+                                    <span>Our Goal</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor" class="size-3">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -257,9 +269,17 @@
                                 <span
                                     class="absolute bottom-0 left-0 w-0 h-[4px] bg-main transition-all duration-300 ease-in-out group-hover:w-full"></span>
                             </li>
-                            <a href="./contact.html"
+                            <li
+                                class="p-4 relative group  hover:text-secondary hover:bg-hover transition-all duration-300 ease-in-out">
+                                <a href="./overview.html" class="flex flex-col items-center text-lg">
+                                    <span>About Us</span>
+                                </a>
+                                <span
+                                    class="absolute bottom-0 left-0 w-0 h-[4px] bg-main transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                            </li>
+                            <!-- <a href="./contact.html"
                                 class="m-3 ml-6 self-center btn bg-main text-white text-xl hover:bg-transparent hover:border-1 hover:border-main hover:text-para">Contact
-                                Us</a>
+                                Us</a> -->
                         </ul>
                     </div>
                 </div>
@@ -314,7 +334,7 @@
         <!-- === About Us Section === -->
         <section id="about-us" class="text-center my-[70px]">
             <h2 class="text-4xl font-title">Welcome to Gasprotech Limited</h2>
-            <h3 class="text-xl tracking-widest mt-2 opacity-7">More About Us</h3>
+            <h3 class="text-xl tracking-widest mt-2 opacity-7">Our Main Goal</h3>
             <p class="max-w-2xl mx-auto mt-8 text-lg text-greyCustom font-light">We works to establish, operate, and
                 manage waste
                 management
@@ -538,11 +558,12 @@
                 <h3 class="text-lg font-semibold mb-4 text-para">Quick Links</h3>
                 <ul class="space-y-2 text-gray-600">
                     <li><a href="#banner" class="hover:text-secondary">Home</a></li>
-                    <li><a href="#about-us" class="hover:text-secondary">About Us</a></li>
+                    <li><a href="#about-us" class="hover:text-secondary">Our Goal</a></li>
                     <li><a href="#working-process" class="hover:text-secondary">Working Process</a></li>
                     <li><a href="#our-services" class="hover:text-secondary">Services</a></li>
                     <li><a href="#our-proposals" class="hover:text-secondary">Proposals</a></li>
-                    <li><a href="./contact.html" class="hover:text-secondary">Contact Us</a></li>
+                    <li><a href="./overview.html" class="hover:text-secondary">About Us</a></li>
+                    <!-- <li><a href="#" class="hover:text-secondary">Contact Us</a></li> -->
                 </ul>
             </div>
 
@@ -554,9 +575,9 @@
                     and project collaborations.</p>
                 <p class="mt-3 text-gray-600"><strong>Email:</strong> gasprotechbd@gmail.com</p>
                 <p class="text-gray-600"><strong>Phone:</strong> +880 1706-161365</p>
-                <p class="text-gray-600 mt-2"><strong>Head Office Location:</strong><br> F-203/6 Hakkani Housing
-                    Society,
-                    Uttar Chayabithi, Gazipur-1700</p>
+                <p class="text-gray-600 mt-2"><strong>Head Office Location:</strong><br>
+                    House9 Road20/D Sector 4, Uttara model town, Dhaka, Bangladesh
+                </p>
                 <!-- Social Icons -->
                 <div class="flex gap-4 mt-4">
                     <a href="#" target="_blank" class="text-[#1877F2] hover:text-secondary">
